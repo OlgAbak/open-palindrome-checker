@@ -1,0 +1,76 @@
+*{
+    box-sizing: border-box;
+  }
+  :root {
+    --font1: Verdana, Tahoma;
+  }
+  body {
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(0, 255, 255);
+  }
+  h1 {
+    text-align: center;
+    font-family: var(--font1);
+    font-size: 45px;
+  }
+  h3 {
+    margin: 0;
+    position: relative;
+    text-align: center;
+    bottom: 30px;
+    font-family: var(--font1);
+    font-size: 18px;
+  }
+  #text-input {
+    position: relative;
+    padding: 10px;
+    width: 300px;
+  }
+  #check-btn {
+    position: relative;
+    padding: 10px;
+    width: 90px;
+    border-radius: 9px;
+    font-family: var(--font1);
+    background-color: rgb(46, 103, 230);
+    color: white;
+  }
+  .checker {
+    background-color: rgb(165, 230, 46);
+    position: relative;
+    width: 500px;
+    height: 180px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 50px;
+    border-radius: 9px;
+  }
+  .definition {
+    background-color: rgb(230, 76, 46);
+    position: relative;
+    width: 400px;
+    height: 205px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 50px;
+    border-radius: 9px;
+    top: 20px;
+  }
+  h4 {
+    text-align: center;
+    position: relative;
+    bottom: 50px;
+    font-family: var(--font1);
+    font-size: 1,2rem;
+  }
+  #result {
+    text-align: center;
+    font-family: var(--font1);
+    font-size: 25px;
+    position: relative;
+    bottom: 12px;
+  }
+  #result strong {
+    font-weight: bold;
+  }
